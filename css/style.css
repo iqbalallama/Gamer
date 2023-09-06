@@ -4,6 +4,12 @@
     font-family: 'Work Sans', sans-serif;
 }
 /* header part */
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 header{
     width: 100%;
     display: flex;
@@ -118,3 +124,93 @@ li a{
     width: 90%;
 }
 /* banner part */
+/* main part */
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.online-game{
+    width: 80%;
+}
+.game-title{
+    color: #0B0223;
+    text-align: center;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.game-description{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.card-video{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap:20px;   
+}
+.online-video{
+    width: 40%;
+    border-radius: 16px;
+    padding: 2px;
+}
+.online-video > p{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+}
+.online-video:hover {
+    border: 2px solid var(--Linear, #FF42A5);
+}
+.online-video:hover .fa-circle-play{
+    display: block;
+}
+.hov, .vertex, .dragon, .mayhin{
+    background-image: url('../images/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: none;
+}
+.vertex{
+    background-image: url('../images/Rectangle\ 4.png');
+}
+.dragon{
+    background-image: url('../images/Rectangle\ 5.png');
+}
+.mayhin{
+    background-image: url('../images/Rectangle\ 6.png');
+}
+.fa-circle-play{
+    font-size: 30px;
+    background-color: white;
+    display: none;
+}
+/* main part */

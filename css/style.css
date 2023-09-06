@@ -331,3 +331,157 @@ footer>p{
     color: white;
     margin-top: 50px;
 }
+
+/* responsive mobile */
+@media screen and (max-width:576px) {
+    .navbar,.card-video,.instantly{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .banner{
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px; 
+    }
+    ul{
+        flex-direction: column;
+        
+    }
+    ul>li{
+        margin-top: 20px;
+    }
+    .banner-img{
+        width: 80%;
+        text-align: center;
+    }
+    .online-video{
+        width: 100%;
+    }
+    .instantly{
+        text-align: center;
+    }
+    .instant{
+        width: 80%;
+    }
+    .instantly-title{
+        margin-bottom: 50px;
+    }
+    .small-img {
+        position: relative;
+        left: -60px;
+        top: 80px;
+    }
+    .icon-design {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        gap: 10px;
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .icon img{
+        width: 30px;
+        
+    }
+    .icon>p{
+        font-size: 16px;
+    }
+    footer{
+        width: 100%;
+    }
+    .list{
+        flex-direction: column
+    }
+}
+/* responsive tab */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .navbar,.card-video,.instantly{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .banner{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px; 
+    }
+    ul{
+        flex-direction: column;
+        
+    }
+    ul>li{
+        margin-top: 20px;
+    }
+    .banner-img{
+        width: 90%;
+        text-align: center;
+    }
+    .online-game {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .online-video{
+        width: 80%;
+        margin-top: 20px;
+    }
+    .card-video{
+        width: 70%;
+    }
+    .instantly{
+        text-align: center;
+    }
+    .instant {
+        width: 60%;
+    }
+    .instantly-title{
+        margin-bottom: 50px;
+    }
+    .instant.instantly-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .small-img {
+        position: relative;
+        left: -120px;
+        top: 15px;
+    }
+    .icon-design {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        gap: 10px;
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .icon img{
+        width: 30px;
+        
+    }
+    .icon>p{
+        font-size: 16px;
+    }
+    footer{
+        width: 100%;
+    }
+    .list{
+        flex-direction:row;
+    }
+}
